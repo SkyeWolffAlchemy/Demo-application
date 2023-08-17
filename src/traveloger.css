@@ -1,0 +1,89 @@
+h1 {
+    font-size: 100px;
+    font-style: italic;
+}
+
+ul {
+    margin:0;
+    padding:0;
+    text-align: left;
+    border-radius: 24px;
+    width: 93%;
+    padding: 1em;
+    margin: 0.5em 0;
+    border: 2px solid #5a5;
+    color: #080;
+}
+
+ul > li {
+    margin: 1em 0.75em 1em 0.5em;
+    padding: 0.5em;
+    border-bottom: 1px solid #ccc;
+    list-style-type: none;
+    clear: both;
+    position: relative;
+}
+
+.left {
+    display: inline-block;
+    padding: .5em 1em;
+}
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+ul > li > button {
+    background-color: rgb(246, 7, 7);
+    margin: .25em;
+    padding: .2em 0.75em;
+}
+
+input[type="text"] {
+    border-radius: 24px;
+    width: 92%;
+    padding: 1em;
+    margin: 0.5em 0;
+    font-size: larger;
+    border: 2px solid #5a5;
+    color: #080;
+}
+
+input[id="coords"] {
+    border-radius: 24px;
+    width: 92%;
+    padding: 1em;
+    margin: 0.5em 0;
+    font-size: larger;
+    border: 2px solid #5a5;
+    color: #080;
+}
+
+input[type="submit"] {
+    width: 100%;
+    border-radius: 24px;
+    font-size: larger;
+    padding: 1em;
+    border: 2px solid #5a5;
+    background-color: #5a5;
+    color: white;
+}
+
+input[type="date"] {
+    border-radius: 24px;
+    width: 93%;
+    padding: 1em;
+    margin: 0.5em 0;
+    font-size: larger;
+    border: 2px solid #5a5;
+    color: #080;
+}
+
+.leaflet-container {
+    height: 500px;
+    border-radius: 24px;
+    border: 2px solid #5a5;
+}
+
