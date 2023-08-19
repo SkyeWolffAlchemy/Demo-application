@@ -18,7 +18,7 @@ import Traveloger from './traveloger.jsx'
 
 const router = createBrowserRouter([
   {
-    path: "/demo-project/",
+    path: "/Demo-application/",
     element: <Root />,
     errorElement: <ErrorPage />,
     children: [
