@@ -5,13 +5,13 @@ export default function Root() {
         <>
         <nav>
             <p>
-                <a href={`/demo-project/`}>👋</a> &mdash;
-                <Link to={`/demo-project/app`}>App</Link> &mdash;
-                <Link to={`/demo-project/clock`}>Clock</Link> &mdash;
-                <Link to={`/demo-project/fetcher`}>API Fetcher</Link> &mdash;
-                <Link to={`/demo-project/equalizer`}>Equalizer</Link> &mdash;
-                <Link to={`/demo-project/names`}>Names</Link> &mdash;
-                <Link to={`/demo-project/traveloger`}>Traveloger</Link>
+                <a href={`/Demo-application/`}>👋</a> &mdash;
+                <Link to={`/Demo-application/app`}>App</Link> &mdash;
+                <Link to={`/Demo-application/clock`}>Clock</Link> &mdash;
+                <Link to={`/Demo-application/fetcher`}>API Fetcher</Link> &mdash;
+                <Link to={`/Demo-application/equalizer`}>Equalizer</Link> &mdash;
+                <Link to={`/Demo-application/names`}>Names</Link> &mdash;
+                <Link to={`/Demo-application/traveloger`}>Traveloger</Link>
                 </p>
         </nav>
         <hr/>
