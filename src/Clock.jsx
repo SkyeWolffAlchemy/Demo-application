@@ -21,6 +21,9 @@ function Clock() {
     <div id="clock">
       <div id="time">{ time }</div>
       <div id="date">{ date }</div>
+      <div id= "locale" className="TempLocalPlaceholder">Southaven 95F</div>
+      <link href="https://fonts.cdnfonts.com/css/digital-numbers" rel="stylesheet" />
+                
     </div>
   )
 }
