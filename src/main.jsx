@@ -14,7 +14,7 @@ import Clock from './Clock.jsx';
 import Equalizer from './Equalizer.jsx';
 import ApiFetcher from './ApiFetcher.jsx';
 import Names from './Names.jsx';
-import Traveloger from './traveloger.jsx'
+import Traveloger from './Traveloger.jsx'
 
 const router = createBrowserRouter([
   {
@@ -29,7 +29,7 @@ const router = createBrowserRouter([
       {
         path: "clock",
         element: <Clock />,
-      }, 
+      },
       {
         path: "fetcher",
         element: <ApiFetcher />
@@ -46,8 +46,8 @@ const router = createBrowserRouter([
         path: "traveloger",
         element: <Traveloger />
       },
-    
-      
+
+
     ]
   },
 ]);
